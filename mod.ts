@@ -21,10 +21,19 @@
 import { bundledLanguages, createHighlighter } from "shiki";
 import type { StenoPlugin } from "steno";
 
+/**
+ * Options for configuring the Shiki plugin.
+ */
 export interface ShikiPluginOptions {
   theme?: string;
 }
 
+/**
+ * Creates a Steno plugin that highlights fenced code blocks with Shiki.
+ *
+ * @param options - Plugin configuration.
+ * @returns A Steno plugin that transforms matching HTML code blocks.
+ */
 export default function shikiPlugin(
   options: ShikiPluginOptions = {},
 ): StenoPlugin {

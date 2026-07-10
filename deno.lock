@@ -2,14 +2,13 @@
   "version": "5",
   "specifiers": {
     "jsr:@std/assert@*": "1.0.19",
-    "jsr:@std/collections@^1.1.3": "1.1.6",
+    "jsr:@std/collections@^1.1.3": "1.3.0",
     "jsr:@std/internal@^1.0.12": "1.0.14",
     "jsr:@std/internal@^1.0.14": "1.0.14",
-    "jsr:@std/path@1": "1.1.5",
-    "jsr:@std/toml@1": "1.0.11",
-    "jsr:@std/yaml@1": "1.0.10",
-    "jsr:@steno/steno@*": "0.2.0",
-    "jsr:@steno/steno@0.2": "0.2.0",
+    "jsr:@std/path@1.1.6": "1.1.6",
+    "jsr:@std/toml@1.0.11": "1.0.11",
+    "jsr:@std/yaml@1.1.2": "1.1.2",
+    "jsr:@steno/steno@0.3": "0.3.0",
     "npm:marked@latest": "17.0.3",
     "npm:shiki@^4.3.0": "4.3.0"
   },
@@ -20,14 +19,14 @@
         "jsr:@std/internal@^1.0.12"
       ]
     },
-    "@std/collections@1.1.6": {
-      "integrity": "b458160ce65ea5ad35da05d0a5cbee4b583677c8b443a10d7beb0c4ac63f2baa"
+    "@std/collections@1.3.0": {
+      "integrity": "eb36b43d784477ea0b476483ac034a14bdd182aff921c812ecf662a1fcef9498"
     },
     "@std/internal@1.0.14": {
       "integrity": "291516b3d4c35024d6ffbc0a9df5bf4c64116e05b50012cf846710152d2ffdf7"
     },
-    "@std/path@1.1.5": {
-      "integrity": "ccea00982ea28c36becaf6e62f855406c76a8c32d462f66f415bbb7d83a271bc",
+    "@std/path@1.1.6": {
+      "integrity": "c68485c2a4dfbb5ae3cc74fae4e8c4e5d874cf8a8ed12927917235c758b46cbe",
       "dependencies": [
         "jsr:@std/internal@^1.0.14"
       ]
@@ -38,11 +37,11 @@
         "jsr:@std/collections"
       ]
     },
-    "@std/yaml@1.0.10": {
-      "integrity": "245706ea3511cc50c8c6d00339c23ea2ffa27bd2c7ea5445338f8feff31fa58e"
+    "@std/yaml@1.1.2": {
+      "integrity": "de612653c036749ba2044165e316f52412b0f0698afffb7ee80b5331d6d2abae"
     },
-    "@steno/steno@0.2.0": {
-      "integrity": "3d7e3cfb7771bdd6ef01c7cc3caed3e315fed4f7b7630352a05ccc23f28fbd8a",
+    "@steno/steno@0.3.0": {
+      "integrity": "ea5af08331ef17ddec0728a20151f3f7b897b9457ac6f616863324a1e4cfab37",
       "dependencies": [
         "jsr:@std/path",
         "jsr:@std/toml",
@@ -322,8 +321,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@*",
-      "jsr:@steno/steno@*",
-      "jsr:@steno/steno@0.2",
+      "jsr:@steno/steno@0.3",
       "npm:shiki@^4.3.0"
     ]
   }
