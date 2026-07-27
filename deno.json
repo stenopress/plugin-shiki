@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "exports": "./mod.ts",
   "imports": {
-    "steno": "jsr:@steno/steno@^0.3.0",
+    "steno": "jsr:@steno/steno@^0.9.0",
     "shiki": "npm:shiki@^4.3.0",
     "@std/assert": "jsr:@std/assert"
   }
