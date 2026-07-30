@@ -5,6 +5,6 @@
   "imports": {
     "steno": "jsr:@steno/steno@^0.10.0",
     "shiki": "npm:shiki@^4.3.1",
-    "@std/assert": "jsr:@std/assert"
+    "@std/assert": "jsr:@std/assert@1.0.19"
   }
 }
