@@ -25,6 +25,7 @@ import type { StenoPlugin } from "steno";
  * Options for configuring the Shiki plugin.
  */
 export interface ShikiPluginOptions {
+  /** Bundled Shiki theme used for highlighted code blocks. */
   theme?: string;
 }
 

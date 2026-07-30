@@ -1,9 +1,9 @@
 {
   "name": "@steno/plugin-shiki",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "exports": "./mod.ts",
   "imports": {
-    "steno": "jsr:@steno/steno@^0.3.0",
+    "steno": "jsr:@steno/steno@^0.10.0",
     "shiki": "npm:shiki@^4.3.0",
     "@std/assert": "jsr:@std/assert"
   }
